@@ -1,0 +1,62 @@
+.box {
+  border: 1px solid black;
+  width: 500px;
+  text-align: center;
+  margin: 10px;
+  margin-top: 60px;
+}
+
+.item-img {
+  width: 400px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.semi-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 100%;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: yellow;
+  color: red;
+}
+
+.Win {
+  border: 5px solid green;
+  background-color: lightgreen;
+}
+
+.Lose {
+  border: 5px solid red;
+  background-color: lightpink;
+}
+
+.Tie {
+  border: 5px solid gray;
+  background-color: lightgray;
+}
