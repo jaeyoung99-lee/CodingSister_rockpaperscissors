@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 // 1. 박스 2개 (타이틀, 사진, 결과값)
